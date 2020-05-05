@@ -8,7 +8,7 @@ Expérimentations en cours pour:
 
 ## Traducteurs
 
-* Les fichiers à traduire se trouvent dans le répertoire: [data/]
+* Les fichiers à traduire se trouvent dans le répertoire [data](data/)
 * Chaque fichier correspond à une entrée à traduire
   * Pour chaque fichier, il faut inscrire le nom et la description en se basant sur les textes d'origine (en anglais)
   * Ne pas supprimer les textes d'orgine!
@@ -16,5 +16,9 @@ Expérimentations en cours pour:
 
 ## Utilisation
 
-Pour appliquer les traductions, il faut installer le module Babele et pointer vers le répertoire [babele](babele/)
-
+Pour appliquer les traductions, il faut installer le module Babele et pointer vers le répertoire [babele](babele/). Instructions détaillées
+* Télécharger une release de dépôt: [Releases](https://github.com/SvenWerlen/foundryvtt-pathfinder2-fr/releases)
+* Désarchiver le tout dans un répertoire accessible depuis Foundry VTT, par exemple `[Foundry]/resources/app/public/`
+* Installer le module [Babele](https://gitlab.com/riccisi/foundryvtt-babele)
+* Activer le module depusi Foundry VTT
+* Configurer le module et pointer les traductions vers le répertoire `babele/`
